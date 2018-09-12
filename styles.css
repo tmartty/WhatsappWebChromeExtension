@@ -1,0 +1,19 @@
+html {
+    --light-blue: rgb(79, 195, 247);
+}
+
+span[data-icon="status-dblcheck-ack"] svg,
+span[data-icon="msg-dblcheck-ack"] svg {
+    background: var(--light-blue);
+    border-radius: 100%;
+}
+span[data-icon="status-dblcheck-ack"] svg {
+    width: 14px;
+    height: 14px;
+    margin-top: 2px;
+}
+span[data-icon="msg-dblcheck-ack"] svg {
+    width: 10px;
+    height: 10px;
+    margin-top: 3px;
+}
